@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 40px;
+    }
+    figure {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .stat {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .stat h2 {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    .stat p {
+      font-size: 28px;
+      font-weight: bold;
+      color: #222;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <figure>
+    <div class="stat">
+      <h2>TOTAL UNIQUE WORKSHOPS</h2>
+      <p>50%</p>
+    </div>
+    <div class="stat">
+      <h2>TOTAL UNIQUE BATCHES</h2>
+      <p>3</p>
+    </div>
+    <div class="stat">
+      <h2>TOTAL UNIQUE STUDENTS</h2>
+      <p>1,000</p>
+    </div>
+    <div class="stat">
+      <h2>TOTAL CERTIFICATES SENT</h2>
+      <p>5,000</p>
+    </div>
+  </figure>
+</body>
+</html>
